@@ -21,9 +21,6 @@
         <NamedIndividual IRI="#abre-portao"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#acende-lampada-quarto"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#acende-luz-garagem"/>
     </Declaration>
     <Declaration>
@@ -117,10 +114,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
-        <NamedIndividual IRI="#acende-lampada-quarto"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
         <NamedIndividual IRI="#acende-luz-garagem"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -146,6 +139,10 @@
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
         <NamedIndividual IRI="#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+        <NamedIndividual IRI="#carro-chegou"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Platform"/>
@@ -228,6 +225,10 @@
         <NamedIndividual IRI="#som-cozinha"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+        <NamedIndividual IRI="#som-quarto"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
         <NamedIndividual IRI="#toca-musica-cozinha"/>
     </ClassAssertion>
@@ -249,11 +250,6 @@
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/usedProcedure"/>
         <NamedIndividual IRI="#abre-portao"/>
         <NamedIndividual IRI="#rotina-noite"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
-        <NamedIndividual IRI="#acende-lampada-quarto"/>
-        <NamedIndividual IRI="#lampada-quarto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
@@ -397,11 +393,6 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
-        <NamedIndividual IRI="#rotina-manha"/>
-        <NamedIndividual IRI="#acende-lampada-quarto"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
         <NamedIndividual IRI="#rotina-noite"/>
         <NamedIndividual IRI="#abre-portao"/>
     </ObjectPropertyAssertion>
@@ -454,16 +445,6 @@
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
         <NamedIndividual IRI="#abre-portao"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
-        <NamedIndividual IRI="#acende-lampada-quarto"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
-        <NamedIndividual IRI="#acende-lampada-quarto"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:00:01-03:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
