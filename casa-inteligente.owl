@@ -15,40 +15,64 @@
     <Import>http://www.w3.org/ns/sosa/</Import>
     <Import>http://www.w3.org/ns/ssn/</Import>
     <Declaration>
-        <NamedIndividual IRI="#acao-1"/>
+        <NamedIndividual IRI="#abertura-portao"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#acao-2"/>
+        <NamedIndividual IRI="#abre-portao"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#acao-3"/>
+        <NamedIndividual IRI="#acende-luz-garagem"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#acao-4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#acao-5"/>
+        <NamedIndividual IRI="#acende-luz-quarto"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#cafe"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#cafe-ficou-pronto"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#cafeteira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carro-chegou"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#casa"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#cozinha"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#faz-cafe-cozinha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#garagem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#identifica-placa-carro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lampada-garagem"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#lampada-quarto"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#luminosidade"/>
+        <NamedIndividual IRI="#luminosidade-garagem"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#musica"/>
+        <NamedIndividual IRI="#luminosidade-quarto"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#observacao-1"/>
+        <NamedIndividual IRI="#para-musica-quarto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#portao"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#quarto"/>
@@ -62,43 +86,93 @@
     <Declaration>
         <NamedIndividual IRI="#rotina-manha"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rotina-noite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#som-cozinha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#som-quarto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toca-musica-cozinha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toca-musica-quarto"/>
+    </Declaration>
     <ClassAssertion>
-        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
-        <NamedIndividual IRI="#acao-1"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+        <NamedIndividual IRI="#abertura-portao"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
-        <NamedIndividual IRI="#acao-2"/>
+        <NamedIndividual IRI="#abre-portao"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
-        <NamedIndividual IRI="#acao-3"/>
+        <NamedIndividual IRI="#acende-luz-garagem"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
-        <NamedIndividual IRI="#acao-4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
-        <NamedIndividual IRI="#acao-5"/>
+        <NamedIndividual IRI="#acende-luz-quarto"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
         <NamedIndividual IRI="#cafe"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+        <NamedIndividual IRI="#cafe-ficou-pronto"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
         <NamedIndividual IRI="#cafeteira"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
         <NamedIndividual IRI="#cafeteira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+        <NamedIndividual IRI="#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+        <NamedIndividual IRI="#carro-chegou"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Platform"/>
+        <NamedIndividual IRI="#casa"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Platform"/>
         <NamedIndividual IRI="#cozinha"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+        <NamedIndividual IRI="#faz-cafe-cozinha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Platform"/>
+        <NamedIndividual IRI="#garagem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+        <NamedIndividual IRI="#identifica-placa-carro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+        <NamedIndividual IRI="#lampada-garagem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Sensor"/>
+        <NamedIndividual IRI="#lampada-garagem"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
         <NamedIndividual IRI="#lampada-quarto"/>
     </ClassAssertion>
@@ -107,16 +181,20 @@
         <NamedIndividual IRI="#lampada-quarto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
-        <NamedIndividual IRI="#luminosidade"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+        <NamedIndividual IRI="#luminosidade-garagem"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
-        <NamedIndividual IRI="#musica"/>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+        <NamedIndividual IRI="#luminosidade-quarto"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
-        <NamedIndividual IRI="#observacao-1"/>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+        <NamedIndividual IRI="#para-musica-quarto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
+        <NamedIndividual IRI="#portao"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Platform"/>
@@ -134,95 +212,174 @@
         <Class IRI="http://www.w3.org/ns/sosa/Procedure"/>
         <NamedIndividual IRI="#rotina-manha"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Procedure"/>
+        <NamedIndividual IRI="#rotina-noite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <NamedIndividual IRI="#rua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+        <NamedIndividual IRI="#som-cozinha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
+        <NamedIndividual IRI="#som-quarto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+        <NamedIndividual IRI="#toca-musica-cozinha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
+        <NamedIndividual IRI="#toca-musica-quarto"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
-        <NamedIndividual IRI="#acao-1"/>
-        <NamedIndividual IRI="#luminosidade"/>
+        <NamedIndividual IRI="#abre-portao"/>
+        <NamedIndividual IRI="#abertura-portao"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
-        <NamedIndividual IRI="#acao-1"/>
-        <NamedIndividual IRI="#lampada-quarto"/>
+        <NamedIndividual IRI="#abre-portao"/>
+        <NamedIndividual IRI="#portao"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/usedProcedure"/>
-        <NamedIndividual IRI="#acao-1"/>
-        <NamedIndividual IRI="#rotina-manha"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
-        <NamedIndividual IRI="#acao-2"/>
-        <NamedIndividual IRI="#musica"/>
+        <NamedIndividual IRI="#abre-portao"/>
+        <NamedIndividual IRI="#rotina-noite"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
-        <NamedIndividual IRI="#acao-2"/>
-        <NamedIndividual IRI="#radio-quarto"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
-        <NamedIndividual IRI="#acao-3"/>
-        <NamedIndividual IRI="#cafe"/>
+        <NamedIndividual IRI="#acende-luz-garagem"/>
+        <NamedIndividual IRI="#lampada-garagem"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
-        <NamedIndividual IRI="#acao-3"/>
-        <NamedIndividual IRI="#cafeteira"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
-        <NamedIndividual IRI="#acao-4"/>
-        <NamedIndividual IRI="#musica"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
-        <NamedIndividual IRI="#acao-4"/>
-        <NamedIndividual IRI="#radio-quarto"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
-        <NamedIndividual IRI="#acao-5"/>
-        <NamedIndividual IRI="#musica"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
-        <NamedIndividual IRI="#acao-5"/>
-        <NamedIndividual IRI="#radio-cozinha"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
-        <NamedIndividual IRI="#cafeteira"/>
-        <NamedIndividual IRI="#cafe"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
-        <NamedIndividual IRI="#cafeteira"/>
-        <NamedIndividual IRI="#cafe"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
-        <NamedIndividual IRI="#cozinha"/>
-        <NamedIndividual IRI="#cafeteira"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
-        <NamedIndividual IRI="#cozinha"/>
-        <NamedIndividual IRI="#radio-cozinha"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+        <NamedIndividual IRI="#acende-luz-quarto"/>
         <NamedIndividual IRI="#lampada-quarto"/>
-        <NamedIndividual IRI="#luminosidade"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
-        <NamedIndividual IRI="#observacao-1"/>
+        <NamedIndividual IRI="#cafe-ficou-pronto"/>
         <NamedIndividual IRI="#cafeteira"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
-        <NamedIndividual IRI="#observacao-1"/>
+        <NamedIndividual IRI="#cafe-ficou-pronto"/>
         <NamedIndividual IRI="#cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implementedBy"/>
+        <NamedIndividual IRI="#cafe-ficou-pronto"/>
+        <NamedIndividual IRI="#rotina-manha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <NamedIndividual IRI="#cafeteira"/>
+        <NamedIndividual IRI="#cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+        <NamedIndividual IRI="#cafeteira"/>
+        <NamedIndividual IRI="#cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
+        <NamedIndividual IRI="#camera"/>
+        <NamedIndividual IRI="#rua"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <NamedIndividual IRI="#casa"/>
+        <NamedIndividual IRI="#cozinha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <NamedIndividual IRI="#casa"/>
+        <NamedIndividual IRI="#garagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <NamedIndividual IRI="#casa"/>
+        <NamedIndividual IRI="#quarto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <NamedIndividual IRI="#cozinha"/>
+        <NamedIndividual IRI="#cafeteira"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <NamedIndividual IRI="#cozinha"/>
+        <NamedIndividual IRI="#radio-cozinha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <NamedIndividual IRI="#faz-cafe-cozinha"/>
+        <NamedIndividual IRI="#cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+        <NamedIndividual IRI="#faz-cafe-cozinha"/>
+        <NamedIndividual IRI="#cafeteira"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implementedBy"/>
+        <NamedIndividual IRI="#faz-cafe-cozinha"/>
+        <NamedIndividual IRI="#rotina-manha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <NamedIndividual IRI="#garagem"/>
+        <NamedIndividual IRI="#camera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
+        <NamedIndividual IRI="#garagem"/>
+        <NamedIndividual IRI="#lampada-garagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#identifica-placa-carro"/>
+        <NamedIndividual IRI="#camera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/wasOriginatedBy"/>
+        <NamedIndividual IRI="#identifica-placa-carro"/>
+        <NamedIndividual IRI="#carro-chegou"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isActedOnBy"/>
+        <NamedIndividual IRI="#luminosidade-garagem"/>
+        <NamedIndividual IRI="#acende-luz-garagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isActedOnBy"/>
+        <NamedIndividual IRI="#luminosidade-quarto"/>
+        <NamedIndividual IRI="#lampada-quarto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <NamedIndividual IRI="#para-musica-quarto"/>
+        <NamedIndividual IRI="#som-quarto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+        <NamedIndividual IRI="#para-musica-quarto"/>
+        <NamedIndividual IRI="#radio-quarto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implementedBy"/>
+        <NamedIndividual IRI="#para-musica-quarto"/>
+        <NamedIndividual IRI="#rotina-manha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isHostedBy"/>
+        <NamedIndividual IRI="#portao"/>
+        <NamedIndividual IRI="#garagem"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
@@ -235,145 +392,135 @@
         <NamedIndividual IRI="#radio-quarto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
+        <NamedIndividual IRI="#rotina-noite"/>
+        <NamedIndividual IRI="#abre-portao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
+        <NamedIndividual IRI="#rotina-noite"/>
+        <NamedIndividual IRI="#acende-luz-garagem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
+        <NamedIndividual IRI="#rotina-noite"/>
+        <NamedIndividual IRI="#carro-chegou"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
+        <NamedIndividual IRI="#rotina-noite"/>
+        <NamedIndividual IRI="#identifica-placa-carro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
-        <NamedIndividual IRI="#radio-cozinha"/>
-        <NamedIndividual IRI="#musica"/>
+        <NamedIndividual IRI="#toca-musica-cozinha"/>
+        <NamedIndividual IRI="#som-cozinha"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+        <NamedIndividual IRI="#toca-musica-cozinha"/>
         <NamedIndividual IRI="#radio-cozinha"/>
-        <NamedIndividual IRI="#musica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implementedBy"/>
+        <NamedIndividual IRI="#toca-musica-cozinha"/>
+        <NamedIndividual IRI="#rotina-manha"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <NamedIndividual IRI="#toca-musica-quarto"/>
+        <NamedIndividual IRI="#som-quarto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeByActuator"/>
+        <NamedIndividual IRI="#toca-musica-quarto"/>
         <NamedIndividual IRI="#radio-quarto"/>
-        <NamedIndividual IRI="#musica"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
-        <NamedIndividual IRI="#radio-quarto"/>
-        <NamedIndividual IRI="#musica"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
+        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implementedBy"/>
+        <NamedIndividual IRI="#toca-musica-quarto"/>
         <NamedIndividual IRI="#rotina-manha"/>
-        <NamedIndividual IRI="#acao-1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
-        <NamedIndividual IRI="#rotina-manha"/>
-        <NamedIndividual IRI="#acao-2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
-        <NamedIndividual IRI="#rotina-manha"/>
-        <NamedIndividual IRI="#acao-3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
-        <NamedIndividual IRI="#rotina-manha"/>
-        <NamedIndividual IRI="#acao-4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
-        <NamedIndividual IRI="#rotina-manha"/>
-        <NamedIndividual IRI="#acao-5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
-        <NamedIndividual IRI="#rotina-manha"/>
-        <NamedIndividual IRI="#observacao-1"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
-        <NamedIndividual IRI="#acao-1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
-        <NamedIndividual IRI="#acao-1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-23T08:00:01-03:00</Literal>
+        <NamedIndividual IRI="#abre-portao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
-        <NamedIndividual IRI="#acao-2"/>
-        <Literal>Sou + você - Racionais MC</Literal>
+        <NamedIndividual IRI="#acende-luz-garagem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
-        <NamedIndividual IRI="#acao-2"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:00:02-03:00</Literal>
+        <NamedIndividual IRI="#acende-luz-garagem"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T18:00:45-03:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
-        <NamedIndividual IRI="#acao-3"/>
-        <Literal>sendo feito</Literal>
+        <NamedIndividual IRI="#acende-luz-quarto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">100</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
-        <NamedIndividual IRI="#acao-3"/>
+        <NamedIndividual IRI="#acende-luz-quarto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:00:01-03:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+        <NamedIndividual IRI="#cafe-ficou-pronto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#cafe-ficou-pronto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:02:00-03:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#carro-chegou"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T18:00:00-03:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
+        <NamedIndividual IRI="#faz-cafe-cozinha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
+        <NamedIndividual IRI="#faz-cafe-cozinha"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:00:03-03:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
-        <NamedIndividual IRI="#acao-4"/>
+        <NamedIndividual IRI="#para-musica-quarto"/>
         <Literal></Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
-        <NamedIndividual IRI="#acao-4"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:02:01-03:00</Literal>
+        <NamedIndividual IRI="#para-musica-quarto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:02:03-03:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
-        <NamedIndividual IRI="#acao-5"/>
-        <Literal>Johnny B. Goode - Chuck Berry</Literal>
+        <NamedIndividual IRI="#toca-musica-cozinha"/>
+        <Literal>Johny B. Goode - Chuck Berry</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
-        <NamedIndividual IRI="#acao-5"/>
+        <NamedIndividual IRI="#toca-musica-cozinha"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:03:00-03:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/hasSimpleResult"/>
-        <NamedIndividual IRI="#observacao-1"/>
-        <Literal>feito</Literal>
+        <NamedIndividual IRI="#toca-musica-quarto"/>
+        <Literal>Sou + Você - Racionais MCs</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.w3.org/ns/sosa/resultTime"/>
-        <NamedIndividual IRI="#observacao-1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:02:00-03:00</Literal>
+        <NamedIndividual IRI="#toca-musica-quarto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2022-07-23T08:00:02-03:00</Literal>
     </DataPropertyAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#acao-1</IRI>
-        <Literal>Liga a luz do quarto</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#acao-2</IRI>
-        <Literal>Liga o rádio do quarto com a música &quot;Sou + Você - Racionais MC&apos;s&quot;</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#acao-3</IRI>
-        <Literal>Liga a cafeteira da cozinha</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#acao-4</IRI>
-        <Literal>Desliga o rádio do quarto</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#acao-5</IRI>
-        <Literal>Liga o rádio da cozinha</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#observacao-1</IRI>
-        <Literal>Observa que o café ficou pronto</Literal>
-    </AnnotationAssertion>
 </Ontology>
 
 
