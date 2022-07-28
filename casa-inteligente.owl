@@ -30,6 +30,9 @@
         <NamedIndividual IRI="#cafe"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#cafe-ficou-pronto"/>
     </Declaration>
     <Declaration>
@@ -73,6 +76,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#portao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quantidade-cafe-produzida"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#quarto"/>
@@ -99,10 +105,16 @@
         <NamedIndividual IRI="#som-quarto"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#status-cafe"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#toca-musica-cozinha"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#toca-musica-quarto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#verificar-quantidade-cafe"/>
     </Declaration>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/ActuatableProperty"/>
@@ -123,6 +135,10 @@
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
         <NamedIndividual IRI="#cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Observation"/>
@@ -195,6 +211,10 @@
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuator"/>
         <NamedIndividual IRI="#portao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <NamedIndividual IRI="#quantidade-cafe-produzida"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Platform"/>
@@ -229,12 +249,20 @@
         <NamedIndividual IRI="#som-quarto"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Result"/>
+        <NamedIndividual IRI="#status-cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
         <NamedIndividual IRI="#toca-musica-cozinha"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.w3.org/ns/sosa/Actuation"/>
         <NamedIndividual IRI="#toca-musica-quarto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.w3.org/ns/sosa/Procedure"/>
+        <NamedIndividual IRI="#verificar-quantidade-cafe"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
@@ -262,6 +290,36 @@
         <NamedIndividual IRI="#lampada-quarto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+        <NamedIndividual IRI="#cafe"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+        <NamedIndividual IRI="#cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasResult"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+        <NamedIndividual IRI="#status-cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+        <NamedIndividual IRI="#cafeteira"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observedProperty"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+        <NamedIndividual IRI="#quantidade-cafe-produzida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/usedProcedure"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+        <NamedIndividual IRI="#verificar-quantidade-cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeBySensor"/>
         <NamedIndividual IRI="#cafe-ficou-pronto"/>
         <NamedIndividual IRI="#cafeteira"/>
@@ -285,6 +343,21 @@
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
         <NamedIndividual IRI="#cafeteira"/>
         <NamedIndividual IRI="#cafe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isHostedBy"/>
+        <NamedIndividual IRI="#cafeteira"/>
+        <NamedIndividual IRI="#cozinha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/madeObservation"/>
+        <NamedIndividual IRI="#cafeteira"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
+        <NamedIndividual IRI="#cafeteira"/>
+        <NamedIndividual IRI="#quantidade-cafe-produzida"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/observes"/>
@@ -382,6 +455,11 @@
         <NamedIndividual IRI="#garagem"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isObservedBy"/>
+        <NamedIndividual IRI="#quantidade-cafe-produzida"/>
+        <NamedIndividual IRI="#cafeteira"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/hosts"/>
         <NamedIndividual IRI="#quarto"/>
         <NamedIndividual IRI="#lampada-quarto"/>
@@ -410,6 +488,11 @@
         <ObjectProperty IRI="http://www.w3.org/ns/ssn/implements"/>
         <NamedIndividual IRI="#rotina-noite"/>
         <NamedIndividual IRI="#identifica-placa-carro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.w3.org/ns/sosa/isResultOf"/>
+        <NamedIndividual IRI="#status-cafe"/>
+        <NamedIndividual IRI="#cafe-esta-pronto"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.w3.org/ns/sosa/actsOnProperty"/>
